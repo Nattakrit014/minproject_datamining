@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 import streamlit as st
 
-model = joblib.load('C:/Users/asus/Desktop/minproject_datamining_real/marine_quality_model.pkl')
+model = joblib.load('marine_quality_model.pkl')
 
 st.set_page_config(page_title='Coastal seawater quality forecasting model', page_icon='🌊', layout='centered')
 

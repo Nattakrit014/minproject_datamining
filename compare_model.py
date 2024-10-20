@@ -11,7 +11,7 @@ from sklearn.svm import SVC
 from imblearn.over_sampling import SMOTE
 
 # อ่านข้อมูล
-data = pd.read_csv('C:/Users/asus/Desktop/minproject_datamining_real/data/marine_data_clean.csv')
+data = pd.read_csv('data/marine_data_clean.csv')
 
 # แยกข้อมูลเป็น X และ y
 X = data.drop('Criteria', axis=1) 

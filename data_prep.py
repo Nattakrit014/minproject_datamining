@@ -5,8 +5,8 @@ import seaborn as sns
 from imblearn.over_sampling import SMOTE
 
 # โหลดข้อมูลจากไฟล์ CSV
-df1 = pd.read_csv('C:/Users/asus/Desktop/minproject_datamining_real/data/marine-quality-1_66.csv', encoding='cp874', on_bad_lines='skip')
-df2 = pd.read_csv('C:/Users/asus/Desktop/minproject_datamining_real/data/marine-quality-2_66.csv', encoding='cp874', on_bad_lines='skip')
+df1 = pd.read_csv('data/marine-quality-1_66.csv', encoding='cp874', on_bad_lines='skip')
+df2 = pd.read_csv('data/marine-quality-2_66.csv', encoding='cp874', on_bad_lines='skip')
 
 # แสดงคอลัมน์ทั้งหมดจากไฟล์แรก
 print("คอลัมน์ทั้งหมดจากไฟล์ marine-quality-1_66.csv:")

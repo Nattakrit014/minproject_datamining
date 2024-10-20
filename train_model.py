@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-data = pd.read_csv('C:/Users/asus/Desktop/minproject_datamining_real/data/marine_data_clean.csv')
+data = pd.read_csv('data/marine_data_clean.csv')
 
 # แยกฟีเจอร์ออกจากป้ายกำกับ (label)
 X = data.drop('Criteria', axis=1)  # ฟีเจอร์
